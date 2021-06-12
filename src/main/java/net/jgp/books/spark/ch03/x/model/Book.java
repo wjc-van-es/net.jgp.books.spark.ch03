@@ -3,92 +3,87 @@ package net.jgp.books.spark.ch03.x.model;
 import java.util.Date;
 
 public class Book {
-  int id;
-  int authorId;
-  String title;
-  Date releaseDate;
-  String link;
+    int id;
+    int authorId;
+    String title;
+    Date releaseDate;
+    String link;
 
-  /**
-   * @return the id
-   */
-  public int getId() {
-    return id;
-  }
-
-  /**
-   * @param id
-   *          the id to set
-   */
-  public void setId(int id) {
-    this.id = id;
-  }
-
-  /**
-   * @return the authorId
-   */
-  public int getAuthorId() {
-    return authorId;
-  }
-
-  public void setAuthorId(int authorId) {
-    this.authorId = authorId;
-  }
-
-  /**
-   * @param authorId
-   *          the authorId to set
-   */
-  public void setAuthorId(Integer authorId) {
-    if (authorId == null) {
-      this.authorId = 0;
-    } else {
-      this.authorId = authorId;
+    /**
+     * @return the id
+     */
+    public int getId() {
+        return id;
     }
-  }
 
-  /**
-   * @return the title
-   */
-  public String getTitle() {
-    return title;
-  }
+    /**
+     * @param id the id to set
+     */
+    public void setId(int id) {
+        this.id = id;
+    }
 
-  /**
-   * @param title
-   *          the title to set
-   */
-  public void setTitle(String title) {
-    this.title = title;
-  }
+    /**
+     * @return the authorId
+     */
+    public int getAuthorId() {
+        return authorId;
+    }
 
-  /**
-   * @return the releaseDate
-   */
-  public Date getReleaseDate() {
-    return releaseDate;
-  }
+    public void setAuthorId(int authorId) {
+        this.authorId = authorId;
+    }
 
-  /**
-   * @param releaseDate
-   *          the releaseDate to set
-   */
-  public void setReleaseDate(Date releaseDate) {
-    this.releaseDate = releaseDate;
-  }
+    /**
+     * @param authorId the authorId to set
+     */
+    public void setAuthorId(Integer authorId) {
+        if (authorId == null) {
+            this.authorId = 0;
+        } else {
+            this.authorId = authorId;
+        }
+    }
 
-  /**
-   * @return the link
-   */
-  public String getLink() {
-    return link;
-  }
+    /**
+     * @return the title
+     */
+    public String getTitle() {
+        return title;
+    }
 
-  /**
-   * @param link
-   *          the link to set
-   */
-  public void setLink(String link) {
-    this.link = link;
-  }
+    /**
+     * @param title the title to set
+     */
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    /**
+     * @return the releaseDate
+     */
+    public Date getReleaseDate() {
+        return releaseDate;
+    }
+
+    /**
+     * @param releaseDate the releaseDate to set
+     */
+    public void setReleaseDate(Date releaseDate) {
+        this.releaseDate = releaseDate;
+    }
+
+    /**
+     * @return the link
+     */
+    public String getLink() {
+        return link;
+    }
+
+    /**
+     * @param link the link to set
+     */
+    public void setLink(String link) {
+        this.link = link;
+    }
 }
